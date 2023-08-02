@@ -2,8 +2,14 @@ body {
   background-color: #2a2e52;
 }
 
-img {
+img.handout {
   width: 100%;
   height: 100%;
   object-fit: cover;
+}
+
+link {
+  font-family: romana-tw, serif;
+  font-style: normal;
+  font-weight: 400;
 }
