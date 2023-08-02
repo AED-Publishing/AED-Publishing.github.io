@@ -23,13 +23,13 @@ img.discord {
   width: 30px;
 }
 
-#link {
+a {
   text-decoration: none;
   color: white;
 }
 
 /* show underline on hover */
-#link:hover {
+a:hover {
   text-decoration: underline;
   text-decoration-color: white;
   -webkit-text-decoration-color: white;
