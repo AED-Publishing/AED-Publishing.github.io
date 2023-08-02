@@ -1,3 +1,8 @@
+@font-face {
+  font-family: Sabon;
+  src: local("/fonts/sabon-cufonfonts/Sabon.ttf");
+}
+
 body {
   background-color: #2a2e52;
 }
@@ -9,9 +14,9 @@ img.handout {
 }
 
 span {
-  font-family: romana-tw, serif;
-  font-style: normal;
-  font-weight: 400;
+  color: white;
+  font-size: 30px;
+  font-family: Sabon;
 }
 
 img.discord {
