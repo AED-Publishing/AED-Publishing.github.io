@@ -8,8 +8,12 @@ img.handout {
   object-fit: cover;
 }
 
-link {
+span {
   font-family: romana-tw, serif;
   font-style: normal;
   font-weight: 400;
+}
+
+img.discord {
+  width: 30px;
 }
