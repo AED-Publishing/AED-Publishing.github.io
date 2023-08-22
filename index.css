@@ -1,6 +1,6 @@
 @font-face {
   font-family: Sabon;
-  src: local("/fonts/sabon-cufonfonts/Sabon.ttf");
+  src: local("./fonts/sabon-cufonfonts/Sabon.ttf");
 }
 
 body {
