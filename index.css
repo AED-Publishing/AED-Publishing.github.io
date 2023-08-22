@@ -15,12 +15,13 @@ img.handout {
 
 span {
   color: white;
-  font-size: 30px;
+  font-size: 80px;
+  padding-left: 15px;
   font-family: Sabon;
 }
 
 img.discord {
-  width: 30px;
+  width: 70px;
 }
 
 a {
@@ -33,4 +34,12 @@ a:hover {
   text-decoration: underline;
   text-decoration-color: white;
   -webkit-text-decoration-color: white;
+}
+
+div.iframe-container {
+  float: right;
+}
+
+div.iframe-container iframe {
+  height: 400px;
 }
