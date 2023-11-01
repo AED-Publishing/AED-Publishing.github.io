@@ -1,0 +1,83 @@
+---
+import Layout from "../../../../layouts/Layout.astro";
+import "../../../../../assets/scss/astro-ecommerce.scss";
+import Navbar from "../../../../components/navbar";
+import Footer from "../../../../components/footer";
+import serverData from "../../../../../public/data.json";
+
+export async function getStaticPaths() {
+  const pages = [
+    ...serverData.ips,
+    {
+      slug: undefined,
+      id: undefined,
+      title: "AED Publishing",
+      category: undefined,
+      data: undefined,
+      resources: undefined,
+    },
+  ];
+
+  const ipPages = pages.map(({ slug, id, title, category, data, resources }) => {
+    return {
+      params: { slug },
+      props: { slug, id, title, category, data, resources },
+    };
+  });
+
+  const resourcePages = pages.map(({ slug, id, title, category, data, resources }) => {
+    return {
+      params: { slug: `${slug}/resources` },
+      props: { slug, id, title, category, data, resources },
+    };
+  });
+
+  return [...ipPages, ...resourcePages];
+}
+
+const { title, resources, slug } = Astro.props;
+const categories = Object.keys(resources);
+---
+
+<Layout title={"Resources"}>
+  <main>
+    <Navbar />
+    <div class="container my-5">
+      <div class="row">
+        <div class="col-12 col-lg-7 mx-auto text-center">
+          <h2 class="mb-3">Resources for {title}</h2>
+        </div>
+        <div class="mb-5">
+          {
+            categories.map((category) => (
+              <div>
+                <h6 class="mb-3">{category}</h6>
+                <ul>
+                  {resources[category].map((resource) => (
+                    <li>
+                      <a href={`/resources/${slug}/${resource.file_name}`} download>
+                        {resource.name}
+                      </a>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            ))
+          }
+        </div>
+      </div>
+    </div>
+    <Footer />
+  </main>
+</Layout>
+
+<!--
+                  <ul>
+                    {resources[category].map((resource) => {
+                      <li>
+                        <a href={`/resources/${slug}/${resource.url}`} download>
+                          {resource.name}
+                        </a>
+                      </li>;
+                    })}
+                  </ul> -->

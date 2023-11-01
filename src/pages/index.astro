@@ -1,0 +1,31 @@
+---
+import Layout from "../layouts/Layout.astro";
+import data from "../../public/data.json";
+import "../../assets/scss/astro-ecommerce.scss";
+import Navbar from "../components/navbar";
+import Footer from "../components/footer";
+import TestimonialsFade from "../components/promo/testimonialsFade";
+import PromoSectionLarge from "../components/promo/promoSectionLarge";
+
+const featured = data.products[0];
+---
+
+<Layout title="AED Publishing">
+  <main>
+    <Navbar />
+    <PromoSectionLarge
+      title={featured.title}
+      titleImage={featured.title_image}
+      description={featured.description}
+      buttonText={featured.tag_line}
+      buttonLink={`/ip/${featured.slug}`}
+      buttonColor={featured.color}
+      font="sabon"
+      pageHeaderBgImg={"../images/5C_cover.jpg"}
+      pageHeaderMinVh="90vh"
+      bgOpacity={2}
+      position="top"
+    />
+    <Footer />
+  </main>
+</Layout>

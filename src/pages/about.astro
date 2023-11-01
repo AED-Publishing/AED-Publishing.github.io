@@ -1,0 +1,69 @@
+---
+import Layout from "../layouts/Layout.astro";
+import "../../assets/scss/astro-ecommerce.scss";
+import Navbar from "../components/navbar";
+import Footer from "../components/footer";
+import ProductFeatureImg from "../components/products/productFeatureImg";
+import ProductFeatureDetails from "../components/products/productFeatureDetails";
+import { shuffle } from "../../assets/js/util/shuffle";
+
+const aboutImages = shuffle([
+  {
+    src: "5th Conspiracy Cover with Title - Front Only.jpg",
+    alt: "Picture of the cover of the 5th Conspiracy Rule Book",
+    ori: "portrait",
+  },
+  { src: "5th Conspiracy Premise Document.jpg", alt: "Picture of the Premise Document", ori: "portrait" },
+  { src: "Stephen Koontz.jpg", alt: "Picture of Stephen Koontz, founder of AED Publishing", ori: "square" },
+  {
+    src: "white_board_message.jpg",
+    alt: "Picture of a small white board with thank you messages written on it from fans of AED Publishing",
+    ori: "landscape",
+  },
+]);
+---
+
+<Layout title={"About AED Publishing"}>
+  <main>
+    <Navbar />
+    <div class="pt-5 px-5">
+      <div class="card card-product card-plain">
+        <div class="row">
+          <div class="col-12 col-lg-7 mx-auto text-center">
+            <h2 class="mb-3">What is AED Publishing?</h2>
+            <p class="mb-5">
+              We are an independent and privately owned publishing company that focuses on the creation and distribution
+              of character and story driven games. AED Publishing was founded by Stephen Koontz in 2022 with the goal of
+              making novel tabletop roleplaying games that aspire to help that artform continue to evolve and give back
+              to the community that had given so much to him.
+            </p>
+          </div>
+        </div>
+        <div class="row mt-5">
+          <div class="col-12 col-lg-6 pe-5">
+            <div class="row">
+              <h4 class="mb-3">Our Asperational Mission</h4>
+              <p class="mb-5">
+                The AED of AED Publishing is not an acronym, but an abbreviation of the Latin word aedificare, which
+                means “to build up, to create, to edify”. That’s our purpose. At a time when so many things can tear us
+                down, we’re trying to build each other up.
+              </p>
+              <ProductFeatureDetails
+                featuresDetails={[
+                  "We believe that human beings are meaning seeking creatures and that it is meaning that brings us happiness. We believe that three of the main ways we find meaning is through our relationships, the things we make or do, and by experiencing beauty. We call man-made beauty art.",
+                  "We believe the purpose of art is to use fiction to point at a greater truth. In experiencing that truth, the audience is encouraged to grow to accommodate their new larger truth. In this way art helps us become better versions of ourselves.",
+                  "Just like there are novels but then there is literature, movies but then cinema, plays but then theater, collaborative storytelling is as rich a medium as any of these mediums and just as capable of being more than JUST engaging, it's able to edify as well, to be art.",
+                  "Our calling is to make tools (games) that foster the creation and experience of art (collaborative storytelling) that in turn foster the creation and deepening of relationships (gaming groups), and in the process aim to make the world a small but meaningfully better place.",
+                ]}
+              />
+            </div>
+          </div>
+          <div class="col-12 col-lg-6">
+            <ProductFeatureImg images={aboutImages} />
+          </div>
+        </div>
+      </div>
+    </div>
+    <Footer />
+  </main>
+</Layout>

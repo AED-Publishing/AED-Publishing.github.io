@@ -1,0 +1,66 @@
+---
+import Layout from "../../layouts/Layout.astro";
+import serverData from "../../../public/data.json";
+import "../../../assets/scss/astro-ecommerce.scss";
+import ProductFeature2 from "../../components/products/productFeature2";
+import Navbar from "../../components/navbar";
+import Footer from "../../components/footer";
+import TestimonialsFade from "../../components/promo/testimonialsFade";
+import { shuffle } from "../../../assets/js/util/shuffle";
+
+export async function getStaticPaths() {
+  const pages = [
+    ...serverData.ips,
+    {
+      slug: undefined,
+      id: undefined,
+      title: "AED Publishing",
+      category: undefined,
+      data: undefined,
+    },
+  ];
+
+  const ipPages = pages.map(({ slug, id, title, category, data }) => {
+    return {
+      params: { slug },
+      props: { id, title, category, data },
+    };
+  });
+
+  const resourcePages = pages.map(({ slug, id, title, category, data }) => {
+    return {
+      params: { slug: `${slug}/resources` },
+      props: { id, title, category, data },
+    };
+  });
+
+  return [...ipPages, ...resourcePages];
+}
+
+const { title, category, data, id } = Astro.props;
+
+const getReviews = () => {
+  const reviewsForProduct = serverData.reviews.filter(
+    (review) => review.category_id === category && review.product_id === id
+  );
+  if (reviewsForProduct?.length) {
+    return shuffle(reviewsForProduct);
+  }
+  return [];
+};
+---
+
+<Layout title={title}>
+  <main>
+    <Navbar />
+    <div class="container mt-5">
+      <div class="my-0">
+        <ProductFeature2 title={title} category={category} data={data} />
+      </div>
+      <div class="mt-5 mb-10">
+        <TestimonialsFade pageHeaderBgImg={""} pageHeaderMinVh={""} reviews={getReviews()} />
+      </div>
+    </div>
+    <Footer />
+  </main>
+</Layout>

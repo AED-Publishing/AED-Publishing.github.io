@@ -1,0 +1,25 @@
+---
+import Layout from "../layouts/Layout.astro";
+import "../../assets/scss/astro-ecommerce.scss";
+import Navbar from "../components/navbar";
+import Footer from "../components/footer";
+---
+
+<Layout title={"Join the AED Publishing Mailing List"}>
+  <main>
+    <Navbar />
+    <div class="container my-5">
+      <div class="iframe-container">
+        <iframe
+          width="540"
+          height="485"
+          src="https://e1430809.sibforms.com/serve/MUIFAMztOL6pE88vF3AIk7iT8wxcE7eVYoBry3BIcCfSCHKvYEhEQCvf1_JaibPEsNsj88FNH3U380-AjF_0N_DxVuibJRm3am5lVKLvzHrKFUJXLNYu4kwr5oseTvJtofZHxYS3eGb75fcq9H32nNreDL8adR0VBpODMojvoDctGUv6HZwQKYsmSDtw7UPr6hGClyDWEklPpqZ3"
+          frameborder="0"
+          scrolling="auto"
+          allowfullscreen
+          style="display: block;margin-left: auto;margin-right: auto;max-width: 100%;"></iframe>
+      </div>
+    </div>
+    <Footer />
+  </main>
+</Layout>
