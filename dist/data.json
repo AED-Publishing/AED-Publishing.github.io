@@ -1,0 +1,587 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "title": "5th Conspiracy: Core Rulebook",
+      "title_image": "5C_TextLogo_white.png",
+      "slug": "5th-Conspiracy",
+      "tag_line": "You are being lied to...",
+      "description": "A character driven tabletop roleplaying game where you explore the power of ideas in an urban fantasy setting.",
+      "full_description": "Play as a member of ancient families of gods, angels, myths, and monsters who compete for control over the unsuspecting world's most precious resource, its attention. The more you’re worshiped, the more powerful you’ll become, even as your humanity slips away. Balance your need for veneration against the oratum’s number one rule: do not let mankind become aware of your true nature, lest they unleash the titan’s wrath back upon the earth, dooming our kind to extinction.",
+      "color": "dark",
+      "price": 5999,
+      "category": 1,
+      "ip": 1,
+      "featuresDetails": {
+        "Origin": "Oil is a primary source of energy for various sectors, including transportation, industries, and residential use.",
+        "Material": "Oil is highly versatile and used in the production of a wide range of products. It serves as a raw material for manufacturing plastics.",
+        "Dimensions": "Oil is a crucial source of petrochemicals, which are used in the production of plastics."
+      },
+      "images": [
+        {
+          "src": "https://images.unsplash.com/photo-1611930021592-a8cfd5319ceb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=987&q=80",
+          "alt": "first_image"
+        },
+        {
+          "src": "https://images.unsplash.com/photo-1526170375885-4d8ecf77b99f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&q=80",
+          "alt": "second_image"
+        },
+        {
+          "src": "https://images.unsplash.com/photo-1513116476489-7635e79feb27?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&q=80",
+          "alt": "third_image"
+        },
+        {
+          "src": "https://images.unsplash.com/photo-1611930022073-b7a4ba5fcccd?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=987&q=80",
+          "alt": "fourth_image"
+        }
+      ],
+      "size": "Small",
+      "sizes": {
+        "XS": 3,
+        "S": 0,
+        "M": 1,
+        "L": 1213,
+        "XL": 6
+      },
+      "highlights": [
+        "Oil is a primary source of energy for various sectors, including transportation, industries, and residential use.",
+        "Oil is highly versatile and used in the production of a wide range of products. It serves as a raw material for manufacturing plastics",
+        "Oil is a crucial source of petrochemicals, which are used in the production of plastics."
+      ],
+      "details": "There’s nothing I really wanted to do in life that I wasn’t able to get good at. That’s my skill. I’m not really specifically talented at anything except for the ability to learn.",
+      "colors": ["red", "blue", "green"],
+      "stock": true
+    },
+    {
+      "id": 2,
+      "thumb_src": "/images/suit-3.jpg",
+      "thumb_alt": "watch-image",
+      "images": [
+        {
+          "src": "https://images.unsplash.com/photo-1611930021592-a8cfd5319ceb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=987&q=80",
+          "alt": "first_image"
+        },
+        {
+          "src": "https://images.unsplash.com/photo-1526170375885-4d8ecf77b99f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&q=80",
+          "alt": "second_image"
+        },
+        {
+          "src": "https://images.unsplash.com/photo-1513116476489-7635e79feb27?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&q=80",
+          "alt": "third_image"
+        },
+        {
+          "src": "https://images.unsplash.com/photo-1611930022073-b7a4ba5fcccd?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=987&q=80",
+          "alt": "fourth_image"
+        }
+      ],
+      "color": "8 colors",
+      "colors": ["red", "blue", "green"],
+      "title": "Basic Starter Pack",
+      "price": 399,
+      "description": "That’s the main thing people are controlled by! Thoughts- their perception of themselves!",
+      "full_description": "The time is now for it to be okay to be great. People in this world shun people for being great. For being a bright color. For standing out.",
+      "details": "There’s nothing I really wanted to do in life that I wasn’t able to get good at. That’s my skill. I’m not really specifically talented at anything except for the ability to learn.",
+      "highlights": [
+        "Oil is a primary source of energy for various sectors, including transportation, industries, and residential use.",
+        "Oil is highly versatile and used in the production of a wide range of products. It serves as a raw material for manufacturing plastics",
+        "Oil is a crucial source of petrochemicals, which are used in the production of plastics."
+      ],
+      "features": [
+        "Multiple strap configuration",
+        "Water Resistant",
+        "Stainless strap loops",
+        "Ultra-soft 100% cotton"
+      ],
+      "rating": 4,
+      "reviews": 117,
+      "size": "Small",
+      "sizes": {
+        "XS": 3,
+        "S": 0,
+        "M": 1,
+        "L": 1213,
+        "XL": 6
+      },
+      "data": {
+        "Features": "The time is now for it to be okay to be great. People in this world shun people for being great. For being a bright color. For standing out. But the time is now to be okay to be the greatest you.",
+        "Care": "It really matters and then like it really doesn`t matter. What matters is the people who are sparked by it. And the people who are like offended by it, it doesn`t matter. Because it's about motivating the doers. Because I`m here to follow my dreams and inspire other people to follow their dreams, too.",
+        "Shipping": "The time is now for it to be okay to be great. People in this world shun people for being great. For being a bright color. For standing out. But the time is now to be okay to be the greatest you. Would you believe in what you believe in, if you were the only one who believed it?",
+        "Returns": "I always felt like I could do anything. That`s the main thing people are controlled by! Thoughts- their perception of themselves! They're slowed down by their perception of themselves. If you're taught you can`t do anything, you won`t do anything. I was taught I could do everything."
+      },
+      "featuresDetails": {
+        "Origin": "Oil is a primary source of energy for various sectors, including transportation, industries, and residential use.",
+        "Material": "Oil is highly versatile and used in the production of a wide range of products. It serves as a raw material for manufacturing plastics.",
+        "Dimensions": "Oil is a crucial source of petrochemicals, which are used in the production of plastics."
+      },
+      "stock": true
+    },
+    {
+      "id": 3,
+      "thumb_src": "/images/suit-1.jpg",
+      "thumb_alt": "watch-image",
+      "images": [
+        {
+          "src": "https://images.unsplash.com/photo-1511499767150-a48a237f0083?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=400&q=80",
+          "alt": "first_image"
+        },
+        {
+          "src": "https://images.unsplash.com/photo-1572635196237-14b3f281503f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=400&q=80",
+          "alt": "second_image"
+        },
+        {
+          "src": "https://images.unsplash.com/photo-1508296695146-257a814070b4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=400&q=80",
+          "alt": "third_image"
+        },
+        {
+          "src": "https://images.unsplash.com/photo-1522125123931-9304d91a42ee?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&q=80",
+          "alt": "fourth_image"
+        }
+      ],
+      "color": "Black",
+      "colors": ["black", "green", "white"],
+      "title": "Pink Blouse",
+      "price": 1490,
+      "rating": 5,
+      "reviews": 117,
+      "description": "That’s the main thing people are controlled by! Thoughts- their perception of themselves!",
+      "full_description": "The 6-Pack includes two black, two white, and two heather gray Basic Tees. Sign up for our subscription service and be the first to get new, exciting colors, like our upcoming `Charcoal Gray` limited release.",
+      "features": [
+        "Multiple strap configuration",
+        "Water Resistant",
+        "Stainless strap loops",
+        "Ultra-soft 100% cotton"
+      ],
+      "size": "Medium",
+      "sizes": {
+        "XS": 3,
+        "S": 0,
+        "M": 1,
+        "L": 0,
+        "XL": 6
+      },
+      "data": {
+        "Features": "The time is now for it to be okay to be great. People in this world shun people for being great. For being a bright color. For standing out. But the time is now to be okay to be the greatest you.",
+        "Care": "It really matters and then like it really doesn`t matter. What matters is the people who are sparked by it. And the people who are like offended by it, it doesn`t matter. Because it's about motivating the doers. Because I`m here to follow my dreams and inspire other people to follow their dreams, too.",
+        "Shipping": "The time is now for it to be okay to be great. People in this world shun people for being great. For being a bright color. For standing out. But the time is now to be okay to be the greatest you. Would you believe in what you believe in, if you were the only one who believed it?",
+        "Returns": "I always felt like I could do anything. That`s the main thing people are controlled by! Thoughts- their perception of themselves! They're slowed down by their perception of themselves. If you're taught you can`t do anything, you won`t do anything. I was taught I could do everything."
+      },
+      "featuresDetails": {
+        "Origin": "Designed by Good Goods, Inc.",
+        "Material": "Solid walnut base with rare earth magnets and powder coated steel card cover",
+        "Dimensions": "6.25 x 3.55' x 1.15'",
+        "Finish": "Hand sanded and finished with natural oil",
+        "Includes": "Wood card tray and 3 refill packs",
+        "Considerations": "Made from natural materials. Grain and color vary with each item."
+      },
+      "stock": false
+    },
+    {
+      "id": 4,
+      "thumb_src": "/images/suit-2.jpg",
+      "thumb_alt": "iMac-image",
+      "images": [
+        {
+          "src": "https://images.unsplash.com/photo-1567790350645-dbc1486a89c3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=600&q=80",
+          "alt": "first_image"
+        },
+        {
+          "src": "https://images.unsplash.com/photo-1593088177922-aa1c5055c7b1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=600&q=80",
+          "alt": "second_image"
+        },
+        {
+          "src": "https://images.unsplash.com/photo-1635594202056-9ea3b497e5c0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=600&q=80",
+          "alt": "third_image"
+        },
+        {
+          "src": "https://images.unsplash.com/photo-1593085260707-5377ba37f868?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=600&q=80",
+          "alt": "fourth_image"
+        }
+      ],
+      "color": "Yellow",
+      "colors": ["SpaceGray"],
+      "title": "Premium Suit",
+      "description": "There’s nothing I really wanted to do in life that I wasn’t able to get good at.",
+      "price": 1399,
+      "size": "Large",
+      "sizes": {
+        "XS": 3,
+        "S": 0,
+        "M": 1,
+        "L": 0,
+        "XL": 6
+      },
+      "data": {
+        "Design": "If everything I did failed - which it doesn't, it actually succeeds - just the fact that I'm willing to fail is an inspiration. People are so scared to lose that they don't even try. Like, one thing people can't say is that I'm not trying, and I'm not trying my hardest, and I'm not trying to do the best way I know how.",
+        "Material": "The time is now for it to be okay to be great. People in this world shun people for being great. For being a bright color. For standing out. But the time is now to be okay to be the greatest you. Would you believe in what you believe in, if you were the only one who believed it? People are so scared to lose that they don't even try.",
+        "Considerations": "I always felt like I could do anything. That’s the main thing people are controlled by! Thoughts- their perception of themselves! They're slowed down by their perception of themselves. If you're taught you can’t do anything, you won’t do anything. I was taught I could do everything.",
+        "Included": "We’re not always in the position that we want to be at. We’re constantly growing. We’re constantly making mistakes. We’re constantly trying to express ourselves and actualize our dreams. If you have the opportunity to play this game of life you need to appreciate every moment. A lot of people don’t appreciate the moment until it’s passed."
+      },
+      "stock": true
+    },
+    {
+      "id": 5,
+      "thumb_src": "/images/suit-5.jpg",
+      "thumb_alt": "iPhone_thumb",
+      "color": "Blue",
+      "title": "iPhone",
+      "description": "That’s the main thing people are controlled by! Thoughts- their perception of themselves!",
+      "price": 1599,
+      "size": "Small",
+      "sizes": {
+        "XS": 3,
+        "S": 0,
+        "M": 1,
+        "L": 0,
+        "XL": 6
+      },
+      "stock": false
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "title": "Roleplaying Games",
+      "slug": "rpgs",
+      "tag_line": "Collaborative storytelling at its best!",
+      "description": "A framework for telling collaborative stories together through a shared narrative.",
+      "full_description": "A tabletop role-playing game is a classification for a role-playing game (RPG) in which the participants describe their characters' actions through speech. Participants determine the actions of their characters based on their characterization, and the actions succeed or fail according to a set formal system of rules and guidelines. Within the rules, players have the freedom to improvise; their choices shape the direction and outcome of the game.",
+      "thumb_src": "/images/category1.jpg",
+      "collection": "Pre-fall"
+    },
+    {
+      "thumb_src": "/images/category2.jpg",
+      "title": "Suits",
+      "collection": "Designers"
+    },
+    {
+      "thumb_src": "/images/category3.jpg",
+      "title": "Festival",
+      "collection": "Summer"
+    },
+    {
+      "thumb_src": "/images/category4.jpg",
+      "title": "Showroom",
+      "collection": "Sale"
+    },
+    {
+      "thumb_src": "/images/product10.jpg",
+      "title": "Living Sofas",
+      "collection": "Interior Design"
+    },
+    {
+      "thumb_src": "/images/category5.jpg",
+      "title": "Chairs by Designers",
+      "collection": "Sale"
+    },
+    {
+      "thumb_src": "/images/product9.jpg",
+      "title": "Home care",
+      "collection": "Products"
+    }
+  ],
+  "ips": [
+    {
+      "id": 1,
+      "title": "5th Conspiracy",
+      "slug": "5th-Conspiracy",
+      "category": 1,
+      "data": {
+        "tag_line": "You are being lied to...",
+        "description": "A character driven tabletop roleplaying game where you explore the power of ideas in an urban fantasy setting.",
+        "full_description": "Join a conspiracy of ancient gods, angels, myths, and monsters who compete for control over the unsuspecting world's most precious resource, its attention. The more you’re worshiped, the more powerful you’ll become, even as the precious things that made you human slip away. Balance your need for veneration against the oratum’s number one rule: do not let mankind become aware of your true nature, lest the humans unleash the titan’s wrath back upon the earth, dooming us all.",
+        "font": "sabon",
+        "features": [
+          {
+            "title": "Revolutionary Mechanics",
+            "content": "<p>The 5th Conspiracy system introduces three revolutionary mechanics that strive to resolve some of the most pernicious problems tabletop groups have struggled with since the dawn of gaming; the misaligned expectations that derail your game, creating believable characters that make good protagonists to your story, and action scenes that are as fast paced and exciting to play as for the characters living them.</p><p><b>The Premise Document:</b> Why is it that so many games fall apart after only a few sessions? The group’s excited, everyone likes their character, and yet two sessions in one or more players call it quits. The Premise Document is a tool that helps your group detect and disarm the landmines of “Premise Rejection”, basic misalignments of expectations and desires that can and will derail your game.<p><b>Milestones:</b> Many players struggle with the leap from concept (I’m Batman but with lightning powers) to a complex person with history and needs, the character worthy of being the protagonist of your story. The milestone system helps players craft fully fleshed out characters whose needs tie them tightly to the stakes of your story.</p><p><b>Dramatic Action Scenes:</b> Let’s face it, the least action packed part of most tabletop games is, well… the action. Whether you’re checked out for fifteen minutes waiting for your turn or stopping to calculate the most optimal position to drop your fireball, you might as well be playing a strategy war game for how removed you are from the emotional experience of your character.</p>",
+            "image": {
+              "url": "/images/5th Conspiracy Cover with Title - Front Only.jpg",
+              "description": "A 5th Conspiracy Picture"
+            }
+          },
+          {
+            "title": "Urban Fantasy",
+            "content": "Why were there so many vampire movies in the early 2000s and why are there so many superhero movies these days? Studio trends? No, it’s because the gods kicked the vampires out of Hollywood. Every time you buy your popcorn, silence your phone, and sit reverently while the Avenger’s save the world, you’re secretly saying a prayer and giving some of your precious veneration energy to the gods for whom those characters are a stand-in for.\n\nWhy is traffic so bad in Southern California? Because the civil engineers aren’t interested in making an effective transportation network, they’re goal is to maximize the amount of road rage they’re feeding to their wraith overlord. Our world doesn’t make any sense, that is until you understand the perverse incentives its secret masters are driven by. You’re being lied to.",
+            "image": {
+              "url": "/images/witch3final.jpg",
+              "description": "A 5th Conspiracy Picture"
+            }
+          }
+        ]
+      },
+      "resources": {
+        "Premise Documents": [
+          { "name": "5th Conspiracy - Premise Document.pdf", "file_name": "5th Conspiracy - Premise Document.pdf" },
+          {
+            "name": "5th Conspiracy - Premise Document Form Fillable.pdf",
+            "file_name": "5th Conspiracy - Premise Document Form Fillable.pdf"
+          }
+        ],
+        "Character Sheets": [
+          {
+            "name": "5th Conspiracy - Character Sheet - 1 Page.pdf",
+            "file_name": "5th Conspiracy - Character Sheet - 1 Page.pdf"
+          },
+          {
+            "name": "5th Conspiracy - Character Sheet - 1 Page Form Fillable.pdf",
+            "file_name": "5th Conspiracy - Character Sheet - 1 Page Form Fillable.pdf"
+          },
+          {
+            "name": "5th Conspiracy - Character Sheet - 2 Page.pdf",
+            "file_name": "5th Conspiracy - Character Sheet - 2 Page.pdf"
+          },
+          {
+            "name": "5th Conspiracy - Character Sheet - 2 Page Form Fillable.pdf",
+            "file_name": "5th Conspiracy - Character Sheet - 2 Page Form Fillable.pdf"
+          },
+          {
+            "name": "5th Conspiracy - Character Sheet - Milestones.pdf",
+            "file_name": "5th Conspiracy - Character Sheet - Milestones.pdf"
+          },
+          {
+            "name": "5th Conspiracy - Character Sheet - Milestones Form Fillable.pdf",
+            "file_name": "5th Conspiracy - Character Sheet - Milestones Form Fillable.pdf"
+          },
+          {
+            "name": "5th Conspiracy - Character Sheet - Arts & Geasa.pdf",
+            "file_name": "5th Conspiracy - Character Sheet - Arts & Geasa.pdf"
+          },
+          {
+            "name": "5th Conspiracy - Character Sheet - Arts & Geasa Form Fillable.pdf",
+            "file_name": "5th Conspiracy - Character Sheet - Arts & Geasa Form Fillable.pdf"
+          }
+        ],
+        "Premade Characters": [
+          { "name": "Alex Wolfe.pdf", "file_name": "Alex Wolfe.pdf" },
+          { "name": "Ash Rattlestilt.pdf", "file_name": "Ash Rattlestilt.pdf" },
+          { "name": "Blake Drake.pdf", "file_name": "Blake Drake.pdf" },
+          { "name": "Drew Sarru.pdf", "file_name": "Drew Sarru.pdf" },
+          { "name": "Jess Ange.pdf", "file_name": "Jess Ange.pdf" },
+          { "name": "Morgan Ret.pdf", "file_name": "Morgan Ret.pdf" },
+          { "name": "Sage Salucci.pdf", "file_name": "Sage Salucci.pdf" },
+          { "name": "Zephyr Regis.pdf", "file_name": "Zephyr Regis.pdf" }
+        ]
+      }
+    }
+  ],
+  "reviews": [
+    {
+      "name": "Ross Miller",
+      "date": "Gateway Con 2023",
+      "comment": "It is an urban fantasy game with an amazing live action mechanic. I like the premise sheet and the overall system mechanics.",
+      "category_id": 1,
+      "product_id": 1
+    },
+    {
+      "name": "Kenny Johnson",
+      "date": "Gateway Con 2023",
+      "comment": "Easy rules, cool setting, good world building, lots of options. Always feel like you can do what you want.",
+      "category_id": 1,
+      "product_id": 1
+    },
+    {
+      "name": "Eric Valoff",
+      "date": "Gateway Con 2023",
+      "comment": "Many, many geat choices to pick from than the usual run of the mill characters and races.",
+      "category_id": 1,
+      "product_id": 1
+    },
+    {
+      "name": "John-Peter Reiland",
+      "date": "Gateway Con 2023",
+      "comment": "5C does a great job keeping your character's background and desires at the forefront of the story and your decision making. It makes it easy to quickly engage emotionally and build attachments to what's going on. Also, the game is designed to mitigate common difficulties that lead to groups falling apart, like lack of buy-in/commitment/matching expectations. Plus, the action scene resolution where everyone writes their approach simultaneously and reveals together is really cool.",
+      "category_id": 1,
+      "product_id": 1
+    },
+    {
+      "name": "Andrew Perrone",
+      "date": "GenCon 2023",
+      "comment": "Love the Premise document. The free form nature of the system was very refreshing.",
+      "category_id": 1,
+      "product_id": 1
+    },
+    {
+      "name": "Mandy Hall",
+      "date": "GenCon 2023",
+      "comment": "All of the character concepts sounded cool, very fun, almost madlibs (but in a good way). I like using the spectrum of yes. The identities are coll instead of skills. I want to start using a premise document with my group. Really like the needs - esp. situational needs to keep them hooked in.",
+      "category_id": 1,
+      "product_id": 1
+    },
+    {
+      "name": "Gavin Elliott",
+      "date": "GenCon 2023",
+      "comment": "Really cool setting fun and unique and very adaptable. I loved how combat works, makes combat much more fluid. I liked how dramatic beats worked in the game.",
+      "category_id": 1,
+      "product_id": 1
+    },
+    {
+      "name": "Marc Carozza",
+      "date": "GenCon 2023",
+      "comment": "I liked the blend of gods | fantasy in modern times. The combat system was fun and unique. Fun to play.",
+      "category_id": 1,
+      "product_id": 1
+    },
+    {
+      "name": "Matt Dwyer",
+      "date": "GenCon 2023",
+      "comment": "I really enjoyed the political intrigue between the different supernatural factions. The white board based battles were very interesting. The premise document seems really helpful, although perhaps better for a session 0 then at the beginning of a session 1. I liked the pacing of the action scenes a lot. The character concepts seemed really unique, with lots of room for creativity.",
+      "category_id": 1,
+      "product_id": 1
+    },
+    {
+      "name": "Nate Evans",
+      "date": "GenCon 2023",
+      "comment": "The combat phase, when you state your goals vs strategically trying to get the best spot was a fresh take on action.",
+      "category_id": 1,
+      "product_id": 1
+    },
+    {
+      "name": "Mathew Morman",
+      "date": "GenCon 2023",
+      "comment": "The premise document was very helpful - makes implicit assumptions of players + STs explicit. Action scenes moved quickly but also had nuance which is good. Also liked the narrative control players have.",
+      "category_id": 1,
+      "product_id": 1
+    },
+    {
+      "name": "Melissa Bassler",
+      "date": "GenCon 2023",
+      "comment": "I loved the modern setting and loved supernaturals hiding in plain sight. Mechanics seemed simple and easy to understand. I liked how the premise document set things right up from the start. The action scenes were very story driven, loved it.",
+      "category_id": 1,
+      "product_id": 1
+    },
+    {
+      "name": "Joshua",
+      "date": "GenCon 2023",
+      "comment": "The premise document is a very useful tool, well thought out and has a purpose that is needed. Needs are a fantastic tool, as well.",
+      "category_id": 1,
+      "product_id": 1
+    },
+    {
+      "avatar": "https://images.unsplash.com/photo-1570295999919-56ceb5ecca61?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=200&q=80",
+      "name": "Hector Gibbs",
+      "date": "July 17, 2023",
+      "rating": 5,
+      "comment": "As we live, our hearts turn colder. Cause pain is what we go through as we become older. We get insulted by others, lose trust for those others. We get back stabbed by friends. ",
+      "productID": "01"
+    },
+    {
+      "avatar": "https://images.unsplash.com/photo-1618077360395-f3068be8e001?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=200&q=80",
+      "name": "Willie Manson",
+      "date": "Aug 18, 2023",
+      "rating": 4,
+      "comment": "It really matters and then like it really doesn’t matter. What matters is the people who are sparked by it. And the people who are like offended by it, it doesn’t matter.",
+      "productID": "01"
+    },
+    {
+      "avatar": "https://images.unsplash.com/photo-1485893086445-ed75865251e0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=200&q=80",
+      "name": "Mary Doyle",
+      "date": "Nov 11, 2023",
+      "rating": 5,
+      "comment": "It really matters and then like it really doesn’t matter. What matters is the people who are sparked by it. And the people who are like offended by it, it doesn’t matter.",
+      "productID": "01"
+    },
+    {
+      "avatar": "https://images.unsplash.com/photo-1633332755192-727a05c4013d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=200&q=80",
+      "name": "Joe Molly",
+      "date": "Mar 23, 2023",
+      "rating": 3,
+      "comment": "It’s like a little kid, a little boy, looking at colors, and no one told him what colors are good, before somebody tells you you shouldn’t like pink.",
+      "productID": "01"
+    },
+    {
+      "avatar": "https://images.unsplash.com/photo-1534126416832-a88fdf2911c2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=200&q=80",
+      "name": "Keisha Megan",
+      "date": "Jun 21, 2023",
+      "rating": 4,
+      "comment": "For standing out. But the time is now to be okay to be the greatest you. Would you believe in what you believe in, if you were the only one who believed it?",
+      "productID": "01"
+    },
+    {
+      "avatar": "https://images.unsplash.com/photo-1542909168-82c3e7fdca5c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=200&q=80",
+      "name": "Kevin Klein",
+      "date": "Dec 01, 2023",
+      "rating": 5,
+      "comment": "Society has put up so many boundaries, so many limitations on what’s right and wrong that it’s almost impossible to get a pure thought out.",
+      "productID": "01"
+    }
+  ],
+  "orders": [
+    {
+      "orderNumber": 23791,
+      "products": [
+        {
+          "id": "01",
+          "status": "Processed",
+          "quantity": 1,
+          "dateModified": "March 23, 2023"
+        },
+        {
+          "id": "02",
+          "status": "Delivered",
+          "quantity": 3,
+          "dateModified": "June 28, 2023"
+        }
+      ],
+      "payment": {
+        "cardNumber": "0042",
+        "expiringDate": "06/26"
+      },
+      "date": "March 23, 2023",
+      "address": "362 Ridgewood, Alaska 99669, USA",
+      "email": "michael@email.com",
+      "phoneNumber": "(808) 791-6935"
+    },
+    {
+      "orderNumber": "WB2341",
+      "products": [
+        {
+          "id": "03",
+          "status": "Order Placed",
+          "quantity": 1,
+          "dateModified": "March 23, 2023"
+        }
+      ],
+      "payment": {
+        "cardNumber": "4119",
+        "expiringDate": "06/26"
+      },
+      "date": "March 28, 2023",
+      "address": "362 Ridgewood Dr, Soldotna, Alaska 99669, USA",
+      "email": "john@email.com",
+      "phoneNumber": "(307) 612-7721"
+    },
+    {
+      "orderNumber": "010110",
+      "products": [
+        {
+          "id": "04",
+          "status": "Order Placed",
+          "quantity": 1,
+          "dateModified": "Sep 09, 2023"
+        },
+        {
+          "id": "01",
+          "status": "Shipped",
+          "quantity": 1,
+          "dateModified": "Sep 12, 2023"
+        },
+        {
+          "id": "02",
+          "status": "Delivered",
+          "quantity": 1,
+          "dateModified": "Sep 13, 2023"
+        }
+      ],
+      "payment": {
+        "cardNumber": "5290",
+        "expiringDate": "11/27"
+      },
+      "date": "Sep 07, 2023",
+      "address": "362 Ridgewood, Alaska 99669, USA",
+      "email": "doe@email.com",
+      "phoneNumber": "(307) 682-8835"
+    }
+  ],
+  "shoppingCart": ["01", "02", "03"],
+  "shoppingCart2": ["02", "03", "04"]
+}

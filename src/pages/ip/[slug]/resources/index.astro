@@ -6,33 +6,16 @@ import Footer from "../../../../components/footer";
 import serverData from "../../../../../public/data.json";
 
 export async function getStaticPaths() {
-  const pages = [
-    ...serverData.ips,
-    {
-      slug: undefined,
-      id: undefined,
-      title: "AED Publishing",
-      category: undefined,
-      data: undefined,
-      resources: undefined,
-    },
-  ];
+  const pages = [...serverData.ips];
 
-  const ipPages = pages.map(({ slug, id, title, category, data, resources }) => {
+  const resourcePages = pages.map(({ slug, id, title, category, data, resources }) => {
     return {
       params: { slug },
       props: { slug, id, title, category, data, resources },
     };
   });
 
-  const resourcePages = pages.map(({ slug, id, title, category, data, resources }) => {
-    return {
-      params: { slug: `${slug}/resources` },
-      props: { slug, id, title, category, data, resources },
-    };
-  });
-
-  return [...ipPages, ...resourcePages];
+  return [...resourcePages];
 }
 
 const { title, resources, slug } = Astro.props;

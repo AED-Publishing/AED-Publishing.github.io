@@ -9,32 +9,17 @@ import TestimonialsFade from "../../components/promo/testimonialsFade";
 import { shuffle } from "../../../assets/js/util/shuffle";
 
 export async function getStaticPaths() {
-  const pages = [
-    ...serverData.ips,
-    {
-      slug: undefined,
-      id: undefined,
-      title: "AED Publishing",
-      category: undefined,
-      data: undefined,
-    },
-  ];
+  const pages = [...serverData.ips];
 
   const ipPages = pages.map(({ slug, id, title, category, data }) => {
+    console.log({ slug });
     return {
       params: { slug },
       props: { id, title, category, data },
     };
   });
 
-  const resourcePages = pages.map(({ slug, id, title, category, data }) => {
-    return {
-      params: { slug: `${slug}/resources` },
-      props: { id, title, category, data },
-    };
-  });
-
-  return [...ipPages, ...resourcePages];
+  return [...ipPages];
 }
 
 const { title, category, data, id } = Astro.props;
