@@ -12,7 +12,6 @@ export async function getStaticPaths() {
   const pages = [...serverData.ips];
 
   const ipPages = pages.map(({ slug, id, title, category, data }) => {
-    console.log({ slug });
     return {
       params: { slug },
       props: { id, title, category, data },
