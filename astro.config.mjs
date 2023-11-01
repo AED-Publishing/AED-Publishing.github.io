@@ -6,6 +6,7 @@ import react from "@astrojs/react";
 // https://astro.build/config
 export default defineConfig({
   integrations: [react()],
-  site: import.meta.env.SITE_URL,
+  // site: import.meta.env.SITE_URL,
+  site: "https://aedpublishing.com",
   base: "/",
 });
