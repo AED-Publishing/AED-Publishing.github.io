@@ -21,11 +21,11 @@ export default function Footer() {
                   Contact Us
                 </a>
               </li>
-              <li className="nav-item">
+              {/* <li className="nav-item">
                 <a href="https://discord.com/invite/Q5eHkzc6tv" className="nav-link text-sm text-muted" target="_blank">
                   Join Our Community
                 </a>
-              </li>
+              </li> */}
               <li className="nav-item">
                 <a href="/mailer" className="nav-link text-sm text-muted">
                   Join Our Mailing List

@@ -59,7 +59,7 @@ const Navbar = () => {
                 About AED
               </a>
             </li>
-            <li className="nav-item">
+            {/* <li className="nav-item">
               <a
                 className="nav-link text-dark font-weight-bold d-flex align-items-center me-2 "
                 aria-current="page"
@@ -69,7 +69,7 @@ const Navbar = () => {
               >
                 <i className="fab text-lg fa-discord"></i>
               </a>
-            </li>
+            </li> */}
             <li className="nav-item">
               <a
                 className="nav-link text-dark font-weight-bold d-flex align-items-center me-2 "
