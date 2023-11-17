@@ -59,17 +59,17 @@ const Navbar = () => {
                 About AED
               </a>
             </li>
-            {/* <li className="nav-item">
+            <li className="nav-item">
               <a
                 className="nav-link text-dark font-weight-bold d-flex align-items-center me-2 "
                 aria-current="page"
-                href="https://discord.com/invite/Q5eHkzc6tv"
+                href="https://discord.com/invite/ZD72Jx4zsn"
                 rel="nofollow"
                 target="_blank"
               >
                 <i className="fab text-lg fa-discord"></i>
               </a>
-            </li> */}
+            </li>
             <li className="nav-item">
               <a
                 className="nav-link text-dark font-weight-bold d-flex align-items-center me-2 "

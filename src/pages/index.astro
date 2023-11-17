@@ -4,7 +4,6 @@ import data from "../../public/data.json";
 import "../../assets/scss/astro-ecommerce.scss";
 import Navbar from "../components/navbar";
 import Footer from "../components/footer";
-import TestimonialsFade from "../components/promo/testimonialsFade";
 import PromoSectionLarge from "../components/promo/promoSectionLarge";
 
 const featured = data.products[0];
@@ -16,7 +15,7 @@ const featured = data.products[0];
     <PromoSectionLarge
       title={featured.title}
       titleImage={featured.title_image}
-      description={featured.description}
+      tag_line={featured.tag_line}
       buttonText={featured.tag_line}
       buttonLink={`/ip/${featured.slug}`}
       buttonColor={featured.color}

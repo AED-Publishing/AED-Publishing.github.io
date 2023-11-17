@@ -12,6 +12,15 @@
       border-radius: $card-border-radius;
     }
 
+    .top-justified {
+      background-position-x: center;
+      background-position-y: top;
+    }
+
+    .semi-transparent {
+      opacity: 0.55;
+    }
+
     .card-body {
       color: $white;
       position: $card-bg-body-position;
@@ -63,7 +72,7 @@
 
         &:after {
           @include gradient-directional(nth($val, 1) 0%, nth($val, -1) 100%, $deg: 310deg);
-          opacity: .85;
+          opacity: 0.85;
         }
       }
     }
@@ -78,10 +87,13 @@
       margin-bottom: $card-bg-description-margin;
     }
 
-    &.card-background-after-none{
-      &:after{
+    &.card-background-after-none {
+      &:after {
         content: none;
       }
     }
+  }
+  &.transparent-background {
+    background: transparent;
   }
 }

@@ -1,7 +1,9 @@
+import CardFeatures from "../products/cardFeatures";
+
 interface Props {
   title: string;
   titleImage: string;
-  description: string;
+  tag_line: string;
   buttonText: string;
   buttonLink: string;
   buttonColor: string;
@@ -11,12 +13,13 @@ interface Props {
   pageHeaderRadius: string;
   bgOpacity: number;
   position: string;
+  feature_collection: Array<object>;
 }
 
 export default function TestimonialsFade({
   title,
   titleImage,
-  description,
+  tag_line,
   buttonText,
   buttonLink,
   buttonColor,
@@ -26,6 +29,7 @@ export default function TestimonialsFade({
   pageHeaderRadius,
   bgOpacity,
   position,
+  feature_collection,
 }: Props) {
   const styles = {
     pageHeader: {
@@ -37,27 +41,21 @@ export default function TestimonialsFade({
 
   const renderTitle = () => {
     if (titleImage) {
-      return <img src={`${import.meta.env.BASE_URL}images/${titleImage}`} className="" alt={`${title}`} />;
+      return <img src={`${import.meta.env.BASE_URL}images/${titleImage}`} className="mw-100" alt={`${title}`} />;
     }
 
     return <h1 className="text-white mb-4">{title}</h1>;
   };
 
-  const renderLinkButton = () => {
+  const renderLinkButtons = () => {
     if (!buttonText || !buttonLink) return;
-    const color = buttonColor ? buttonColor : "white";
-    const btn_font = font ? ` text-${font}` : "";
-    return (
-      <a className={`btn btn-${color} btn-lg text-lg${btn_font}`} aria-current="page" href={`${buttonLink}`}>
-        {buttonText}
-      </a>
-    );
+    return <CardFeatures feature_card_collection={feature_collection} />;
   };
 
-  const renderDescription = () => {
-    if (!description) return;
+  const renderTagLine = () => {
+    if (!tag_line) return;
     const desc_font = font ? ` text-${font}` : "";
-    return <p className={`lead text-white mb-sm-6 mb-4${desc_font}`}>{description}</p>;
+    return <p className={`lead text-white mb-sm-6 mb-4${desc_font}`}>{tag_line}</p>;
   };
 
   const setBgOpacity = () => {
@@ -78,10 +76,12 @@ export default function TestimonialsFade({
           <span className={`mask bg-black opacity-${setBgOpacity()}`}></span>
           <div className={`container`}>
             <div className="row justify-content-center">
-              <div className="col-lg-8 col-sm-9 text-center mx-auto">
-                {renderTitle()}
-                {renderDescription()}
-                {renderLinkButton()}
+              <div className="text-center mx-auto">
+                <div className="d-block text-center mb-5">
+                  {renderTitle()}
+                  {renderTagLine()}
+                </div>
+                {renderLinkButtons()}
               </div>
             </div>
           </div>

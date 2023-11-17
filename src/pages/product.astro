@@ -9,7 +9,6 @@ import StoreDoubleColumn from "../components/store/storeDoubleColumn";
 import ReviewSummaryChart from "../components/reviews/reviewSummaryChart";
 
 const product = Astro.url.pathname;
-console.log({ product });
 // filter reviews with ID 01
 let productReviews = data.reviews.filter((x) => x.productID == "01");
 ---
