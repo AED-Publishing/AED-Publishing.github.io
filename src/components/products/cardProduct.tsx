@@ -30,7 +30,7 @@ export default function CardProduct({
           <div className="height-350">
             <img
               className="w-100 h-100 p-4 rounded-top"
-              src={`${import.meta.env.BASE_URL}public/images/${thumb_src}`}
+              src={`${import.meta.env.BASE_URL}images/${thumb_src}`}
               alt={thumb_alt}
             />
           </div>
