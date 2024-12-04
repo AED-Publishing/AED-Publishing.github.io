@@ -1,0 +1,55 @@
+---
+import Layout from "../../layouts/Layout.astro";
+import "../../../assets/scss/astro-ecommerce.scss";
+import Navbar from "../../components/navbar";
+import Footer from "../../components/footer";
+import CardProduct from "../../components/products/cardProduct";
+import Socials from "../../components/promo/socials";
+import serverData from "../../../public/data.json";
+
+export async function getStaticPaths() {
+  const pages = [...serverData.about];
+
+  const aboutPages = pages.map(({ slug, title, name, src, bio, socials, alt, ori }) => {
+    const about = serverData.about.find((obj) => {
+      return obj.slug === slug;
+    });
+    return {
+      params: { slug },
+      props: { title, name, src, bio, socials, alt, ori },
+    };
+  });
+
+  return [...aboutPages];
+}
+
+const { title, name, src, bio, socials, alt } = Astro.props;
+---
+
+<Layout title={`About ${name}`}>
+  <main>
+    <Navbar />
+    <div class="pt-5 px-5">
+      <div class="card card-product card-plain">
+        <div class="row">
+          <div class="col-12 col-lg-7 mx-auto text-center">
+            <h2 class="mb-3">Who is {name}?</h2>
+          </div>
+        </div>
+        <div class="row mt-5">
+          <div class="col-12 col-lg-6 pe-5">
+            <div class="row">
+              <h4 class="mb-3">{title}</h4>
+              <p class="mb-5">{bio}</p>
+              <Socials socialDetails={socials} />
+            </div>
+          </div>
+          <div class="col-12 col-lg-6">
+            <CardProduct thumb_src={src} , thumb_alt={alt} , title={title} , />
+          </div>
+        </div>
+      </div>
+    </div>
+    <Footer />
+  </main>
+</Layout>

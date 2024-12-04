@@ -26,7 +26,7 @@ const Navbar = () => {
               <a
                 className="nav-link text-dark dropdown-toggle font-weight-bold d-flex align-items-center me-2 "
                 aria-current="page"
-                id="pagesExample"
+                id="5C-menu"
                 data-bs-toggle="dropdown"
                 aria-expanded="false"
               >
@@ -77,6 +77,15 @@ const Navbar = () => {
                 href="/mailer"
               >
                 <i className="text-lg fa-solid fa-envelope"></i>
+              </a>
+            </li>
+            <li className="nav-item">
+              <a
+                className="nav-link text-dark font-weight-bold d-flex align-items-center me-2 "
+                aria-current="page"
+                href="https://patreon.com/AEDpublishing"
+              >
+                <i className="text-lg fa-brands fa-patreon"></i>
               </a>
             </li>
           </ul>

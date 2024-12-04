@@ -505,6 +505,82 @@
       "productID": "01"
     }
   ],
+  "about": [
+    {
+      "name": "Stephen Koontz",
+      "title": "Creative Director",
+      "src": "Stephen Koontz.jpg",
+      "alt": "Picture of Stephen Koontz, founder of AED Publishing",
+      "ori": "square",
+      "slug": "stephen",
+      "bio": "Stephen is the founder and senior officer of AED Publishing. He is also a writer, game designer, and engineer. He is the author of the 5th Conspiracy RPG, has won many awards including multiple Ennies over his career, and was the Lead Engineer and Director of Engineer for the Roll20 virtual tabletop. Stephen is neurodivergent and has suffers from myalgic encephalomyelitis since childhood. He has spent the majority of his life in California and Arizona, having attended UCSD where he got his degree in writing. Stephen currently resides in Phoenix Arizona with his wife and two kids.",
+      "socials": [
+        {
+          "type": "youtube",
+          "handle": "@aedpublishing",
+          "href": "https://www.youtube.com/@AEDPublishing"
+        },
+        { "type": "bluesky", "handle": "@aedpublishing", "href": "https://bsky.app/profile/aedpublishing.bsky.social" },
+        { "type": "patreon", "handle": "AEDpublishing", "href": "https://www.patreon.com/c/AEDpublishing" },
+        {
+          "type": "linkedin",
+          "handle": "Stephen Koontz",
+          "href": "https://www.linkedin.com/in/stephen-koontz-08075111"
+        },
+        { "type": "tiktok", "handle": "@aed_publishing", "href": "https://www.tiktok.com/@aed_publishing" },
+        { "type": "instagram", "handle": "aed_publishing", "href": "https://www.instagram.com/aed_publishing" },
+        {
+          "type": "facebook",
+          "handle": "AED-Publishing",
+          "href": "https://www.facebook.com/people/AED-Publishing/100092717888509/"
+        }
+      ]
+    },
+    {
+      "name": "Michael Parra",
+      "title": "Content Creator",
+      "src": "Michael Parra.jpg",
+      "alt": "Picture of Michael Parra, Content Creator",
+      "ori": "portrait",
+      "slug": "michael",
+      "bio": "Michael Andrew Parra is a dynamic political operative and masterful storyteller, deeply committed to igniting grassroots movements and championing progressive ideals. Beyond the political arena, Michael thrives as a vibrant content creator, sharing fresh perspectives aon tabletop roleplaying and video games, fostering creativity and connection in the gaming community.",
+      "socials": [
+        { "type": "bluesky", "handle": "@ContinueParra", "href": "https://bsky.app/profile/continueparra.bsky.social" },
+        { "type": "x", "handle": "@ContinueParra", "href": "https://x.com/ContinueParra" },
+        { "type": "instagram", "handle": "@ContinueParra", "href": "https://www.instagram.com/continueparra/" }
+      ]
+    },
+    {
+      "name": "David Koontz",
+      "title": "Senior Producer",
+      "src": "David Koontz.png",
+      "alt": "Picture of David Koontz, Senior Producer",
+      "ori": "square",
+      "slug": "david",
+      "bio": "",
+      "socials": []
+    }
+  ],
+  "promo": [
+    {
+      "src": "5th Conspiracy Cover with Title - Front Only.jpg",
+      "alt": "Picture of the cover of the 5th Conspiracy Rule Book",
+      "ori": "portrait",
+      "href": "/ip/5th-Conspiracy/"
+    },
+    {
+      "src": "5th Conspiracy Premise Document.jpg",
+      "alt": "Picture of the Premise Document",
+      "ori": "portrait",
+      "href": "/ip/5th-Conspiracy/resources/"
+    },
+    {
+      "src": "white_board_message.jpg",
+      "alt": "Picture of a small white board with thank you messages written on it from fans of AED Publishing",
+      "ori": "landscape",
+      "href": "/ip/5th-Conspiracy/"
+    }
+  ],
   "orders": [
     {
       "orderNumber": 23791,

@@ -31,6 +31,24 @@ export default function Footer() {
                   Join Our Mailing List
                 </a>
               </li>
+              <li className="nav-item">
+                <a
+                  className="nav-link text-dark font-weight-bold d-flex align-items-center me-2 "
+                  aria-current="page"
+                  href="https://patreon.com/AEDpublishing"
+                >
+                  <i className="text-lg fa-brands fa-patreon"></i>
+                </a>
+              </li>
+              <li className="nav-item">
+                <a
+                  className="nav-link text-dark font-weight-bold d-flex align-items-center me-2 "
+                  aria-current="page"
+                  href="https://bsky.app/profile/aedpublishing.bsky.social"
+                >
+                  <i className="text-lg fa-brands fa-bluesky"></i>
+                </a>
+              </li>
             </ul>
           </div>
         </div>

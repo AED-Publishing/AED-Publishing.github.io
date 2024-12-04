@@ -3,6 +3,8 @@ interface Props {
     src: string;
     alt: string;
     ori: string;
+    href: string;
+    slug: string;
   }[];
 }
 
@@ -12,6 +14,32 @@ export default function ProductGallery({ images }: Props) {
       <div className="mt-4 d-block d-md-flex justify-content-between flex-wrap">
         {images.map((image) => {
           const imgDimensions = setDimensions(image);
+          if (image.href) {
+            return (
+              <div className="d-md-flex">
+                <a href={image.href}>
+                  <img
+                    className={`${imgDimensions}`}
+                    src={`${import.meta.env.BASE_URL}images/${image.src}`}
+                    alt={image.alt}
+                  />
+                </a>
+              </div>
+            );
+          }
+          if (image.slug) {
+            return (
+              <div className="d-md-flex">
+                <a href={`/about/${image.slug}`}>
+                  <img
+                    className={`${imgDimensions}`}
+                    src={`${import.meta.env.BASE_URL}images/${image.src}`}
+                    alt={image.alt}
+                  />
+                </a>
+              </div>
+            );
+          }
           return (
             <div className="d-md-flex">
               <img
